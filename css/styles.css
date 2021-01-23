@@ -1,0 +1,64 @@
+.consolebody {
+    height: 40em;
+    width: 22.5em;
+    background: linear-gradient(25deg, rgba(242,226,31,0.48503151260504207) 0%, rgba(242,216,42,0.9528186274509804) 9%, rgba(255,224,66,1) 100%);
+    display: flex;
+    flex-direction: column;  
+    border-radius: 100% / 1% 1% 15% 15%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    box-shadow: 2px 2px 10px #454b41;
+}
+.head {
+    height: 20em;
+    width: 22.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen {
+    
+    height: 18em;
+    width: 18em;
+    background: linear-gradient(40deg, rgba(31,36,46,1) 0%, rgba(31,36,46,1) 9%, rgba(31,36,46,1) 100%);
+    border-radius: 100% / 1% 1% 10% 10%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visualscreen {
+    height: 14em;
+    width: 14em;
+    background: rgb(87,105,76);
+    background: linear-gradient(130deg, #454b41 60%, #51584d 80%);
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.middle {
+    height: 10em;
+    width: 22.5em;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cross {
+    background-color: hotpink;
+    width: 7.5em;
+}
+.empty1 {
+    background-color: lawngreen;
+    width: 7.5em;
+}
+.buttons {
+    background-color: lightseagreen;
+    width: 7.5em;
+}
+.foot {
+    height: 8em;
+    width: 22.5em;
+    background-color: blueviolet;
+}
