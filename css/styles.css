@@ -25,16 +25,32 @@
     border-top-right-radius: 5%;
     border-top-left-radius: 5%; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
+
 }
 
+.color {
+    align-self: center;
+    width: 12em;
+    height: 2em;
+    margin-top: 0.7em;
+}
+
+.power {
+    position: relative;
+    right: 8.2em;
+    bottom: 10em;
+}
 .visualscreen {
     height: 14em;
     width: 14em;
     background: rgb(87,105,76);
     background: linear-gradient(130deg, #454b41 60%, #51584d 80%);
     border-radius: 10px 10px 10px 10px;
+    margin-top: 1em;
 }
 
 
