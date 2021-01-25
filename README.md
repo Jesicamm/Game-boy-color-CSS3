@@ -14,3 +14,5 @@
  - Letras GameBoy Color
  - Power
  - Salida de sonido.
+
+ * Link para ver la consola: https://jesicamm.github.io/Game-boy-color-CSS3/
